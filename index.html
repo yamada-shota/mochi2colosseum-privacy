@@ -40,10 +40,17 @@
   <p>Mochi2 Colosseum is an independently developed iOS game. Please read the following privacy policy before using the app.</p>
 
   <h2>Data Collection</h2>
-  <p>Mochi2 Colosseum does not collect any personal information. All game data — including scores, coins, purchased items, and settings — is stored exclusively on your device and is never transmitted to any server.</p>
+  <p>To prevent cheating and ensure fair play, the following game data is stored on a secure cloud server (AWS / Amazon DynamoDB) linked to your Apple Game Center ID:</p>
+  <ul>
+    <li>Game Center player ID (issued by Apple — the developer cannot see your Apple ID or real name)</li>
+    <li>Display name you set in the game</li>
+    <li>Score history and personal best</li>
+    <li>Coins, gems, stamina, owned skins, fields, and items</li>
+  </ul>
+  <p>Settings and temporary UI state are stored locally on your device only and are never sent to a server.</p>
 
   <h2>Leaderboard</h2>
-  <p>The leaderboard feature submits your score and a display name you choose. No personally identifiable information is attached. Scores are stored on a secure server solely for the purpose of ranking display and are never used for advertising or analytics.</p>
+  <p>Your display name and score are stored on the server and shown in the public leaderboard. This data is never used for advertising or analytics.</p>
 
   <h2>In-App Purchase</h2>
   <p>Mochi2 Colosseum offers optional in-app purchases (coins and cosmetic items). All transactions are handled by Apple, and the developer has no access to your payment information.</p>
@@ -92,10 +99,17 @@
   <p>もちもちコロシアムは個人開発の iOS ゲームです。本アプリのご利用にあたり、以下のプライバシーポリシーをご確認ください。</p>
 
   <h2>収集する情報</h2>
-  <p>本アプリは、ユーザーの個人情報を一切収集しません。スコア・コイン・購入済みアイテム・設定などすべてのデータはお使いのデバイス内にのみ保存され、外部のサーバーに送信されることはありません。</p>
+  <p>不正防止・公平なゲームプレイのために、以下のゲームデータを Apple Game Center ID に紐づけてクラウドサーバー（AWS / Amazon DynamoDB）に保存します。</p>
+  <ul>
+    <li>Game Center プレイヤー ID（Apple が発行するもので、Apple ID や本名は開発者には見えません）</li>
+    <li>ゲーム内で設定した表示名</li>
+    <li>スコア履歴・自己ベスト</li>
+    <li>コイン・ジェム・スタミナ・所持スキン・フィールド・アイテム</li>
+  </ul>
+  <p>設定や一時的な UI の状態はデバイス内のみに保存され、サーバーには送信されません。</p>
 
   <h2>ランキング機能</h2>
-  <p>ランキング機能を使用すると、お客様が入力した表示名とスコアがサーバーに送信されます。個人を特定できる情報は含まれません。送信されたスコアはランキング表示のみに使用され、広告・解析目的には使用しません。</p>
+  <p>表示名とスコアはサーバーに保存され、公開ランキングに表示されます。これらのデータは広告・解析目的には一切使用しません。</p>
 
   <h2>App 内課金</h2>
   <p>本アプリはコインやコスメアイテムの購入機能を提供しています。課金処理はすべて Apple によって行われ、開発者は支払い情報にアクセスすることはできません。</p>
